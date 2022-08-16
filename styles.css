@@ -1,0 +1,20 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.button{
+    padding: 25px;
+    margin: 0 3px;
+    font-size: medium ;
+    font-weight: bold;
+    border: 2px solid blue;
+    border-radius: 20%;
+    background-color: white;
+}
+span{
+    opacity: 0;
+    transition: all 2s ease;
+}
+span.fade{
+    opacity: 1;
+}
